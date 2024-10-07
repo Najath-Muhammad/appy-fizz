@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    margin-top: 70px;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.first-page {
+    background: url('image/fizz.jpg');
+    width: 100%;
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+    
+}
+
+button {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 10px 16px;
+    letter-spacing: 1px; 
+    font-size: 16px; 
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo-img {
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.top {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px;
+}
+
+.second-page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.logo-second {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align logo and heading */
+}
+
+.second-logoimg {
+    width: 180px; 
+    z-index: 0;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 80px; 
+    margin-top: 20px;
+    text-align: center;
+    font-family: "EksellDisplayWeb-Small";
+    font-weight: 900;
+    width: 400px;
+}
+
+p {
+    font-size: 22px; /* Adjusted font size */
+    text-align: left;
+    width: 85%; /* Adjusted width for better readability */
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+
+.second-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.paragraph{
+    margin-left: 120px;
+}
+
+.media {
+    width: 40px; /* Adjusted size */
+    cursor: pointer;
+    
+}
+
+.third-page img {
+    width: 100%;
+    height: auto; /* Maintain image ratio */
+}
+.last-page{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.last-para1{
+    margin-top: 0;
+    font-size: 14px;
+    width: 500px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+i{
+    margin-top: 0;
+    transition: 0.5s;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+button:hover{
+    color: red;
+}
+i:hover{
+    color: red;
+    cursor: pointer;
+}
